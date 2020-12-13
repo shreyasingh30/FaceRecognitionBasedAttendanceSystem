@@ -14,10 +14,10 @@ on face recognition to maintain the attendance record of students.
 **How to do it?**
 
 1.Loading Images from an folder and Converting to RGB.  
-2.Compute the encodings for all the images.  
+2.Compute the encodings for all the images and save it in a list.  
 3.Capture frames from webcam.  
 4.Once we have the webcam frame we will find all the faces in our image. The face_locations function is used for this purpose. Later we will find the face_encodings as well.  
-5.Now we can match the current face encodings to our known faces encoding list to find the matches. We will also compute the distance. 
+5.Now we can match the current face encodings to our known faces encoding list to find the matches. We will also compute the distance. This is done to find the best match in case more than one face is detected at a time.  
 6.Once we have the list of face distances we can find the minimum one, as this would be the best match.  
 7.Mark attendance in the csv file of the best match.  
 
