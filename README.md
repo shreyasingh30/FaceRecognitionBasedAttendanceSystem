@@ -11,7 +11,6 @@ on face recognition to maintain the attendance record of students.
 4. numpy
 5. opencv-python
 
-[I'm an inline-style link](https://www.google.com)
 
 **How to do it?**
 
@@ -23,3 +22,4 @@ on face recognition to maintain the attendance record of students.
 6.Once we have the list of face distances we can find the minimum one, as this would be the best match.  
 7.Mark attendance in the csv file of the best match.  
 
+[I'm an inline-style link](https://www.google.com)
