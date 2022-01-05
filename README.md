@@ -11,6 +11,8 @@ on face recognition to maintain the attendance record of students.
 4. numpy
 5. opencv-python
 
+[I'm an inline-style link](https://www.google.com)
+
 **How to do it?**
 
 1.Loading Images from an folder and Converting to RGB.  
